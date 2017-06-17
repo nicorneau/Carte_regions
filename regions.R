@@ -1,4 +1,5 @@
-###Creation de cartes pour les reseaux locaux de services (rls) du Quebec###
+##########Creation de cartes pour les reseaux locaux de services (rls) du Quebec#############
+###(Merci a Philippe Hamel pour son aide sur ce projet : https://philippehamel.github.io/)##
 
 ##packages necessaires
 library(dplyr)
