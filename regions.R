@@ -106,7 +106,11 @@ ggplot() +
     annotate("text", x=max(data$long)-350000,
              y=max(data$lat)-43000*(1:17),
              label=paste(unique(data$id), " : "),
-             size=3.5, hjust=1)
+             size=3.5, hjust=1) +
+    annotate("text", x=max(data$long)-40000,
+             y=min(data$lat+20000),
+             label="Création de Nicolas Corneau-Tremblay",
+             size=3, hjust=1)
 dev.off()
 
 
