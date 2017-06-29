@@ -1,5 +1,5 @@
 ##########Creation de cartes pour les reseaux locaux de services (rls) du Quebec#############
-###(Merci a Philippe Hamel pour son aide sur ce projet : https://philippehamel.github.io/)##
+###(Merci a Philippe Hamel pour son aide sur ce projet : https://philippehamel.github.io/)###
 
 ##packages necessaires
 library(dplyr)
@@ -7,7 +7,6 @@ library(ggmap)
 library(maptools)
 library(rgdal)
 library(readxl)
-library(stringi)
 library(scales)
 library(pdftools)
 library(stringr)
