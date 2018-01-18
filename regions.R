@@ -10,10 +10,12 @@ library(readxl)
 library(scales)
 library(pdftools)
 library(stringr)
-
+# S'il y a erreur, peut requérir l'installation des packages suivants 
+#install.packages("rgeos", type="source")
+#install.packages("rgdal", type="source")
 
 ##direction de travail
-setwd("/Users/nicot/Documents/github/Carte_regions")
+setwd("/Users/nict/Documents/github/Carte_regions")
 getwd()
 
 
